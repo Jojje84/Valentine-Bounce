@@ -37,7 +37,7 @@
 
     <section>
       <div class="content">
-        <!-- Lägg till onclick på .content -->
+        <p>Klicka på mig</p>
         <h1>Hello</h1>
         <p>Happy day</p>
         <span class="text">Valentine</span>
@@ -47,12 +47,9 @@
   <script>
     const content = document.querySelector(".content");
 
-    // Lägg till eventlyssnare för både 'click' och 'touchend' för att stödja mobila enheter
-    content.addEventListener("click", bounce); // För stationära enheter
-    content.addEventListener("touchstart", handleTouch, { passive: true }); // För pekskärmsanvändare
-
+    content.addEventListener("click", bounce);
+    content.addEventListener("touchstart", handleTouch, { passive: true });
     function handleTouch(event) {
-      // Förhindra att standardbeteendet sker (t.ex. zooming eller scrolling)
       event.preventDefault();
       bounce();
     }
@@ -60,10 +57,9 @@
     function bounce() {
       content.classList.add("bounce");
 
-      // Ta bort 'bounce' klassen efter 6 sekunder
       setTimeout(() => {
         content.classList.remove("bounce");
-      }, 6000); // 6000 ms = 6 sekunder
+      }, 6000);
     }
   </script>
 </html>

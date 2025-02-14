@@ -124,6 +124,11 @@ body {
 }
 .content h1 {
   font-size: 2em;
+  color: #fff;
+}
+.content p {
+  font-size: 1.5em;
+  color: #fff;
 }
 .content.bounce {
   animation: bounce 0.5s infinite alternate;
