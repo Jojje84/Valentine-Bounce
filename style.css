@@ -7,7 +7,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 .background {
   position: fixed;
   width: 100vw;
@@ -17,7 +16,6 @@ body {
   background: #030303;
   overflow: hidden;
 }
-
 .background span {
   width: 20vmin;
   height: 20vmin;
@@ -29,7 +27,6 @@ body {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-
 .background span:nth-child(1) {
   color: #0979f0;
   top: 69%;
@@ -123,15 +120,17 @@ body {
   padding: 20px;
   font-style: italic;
   text-align: center;
-  border-radius: 100vh;
+  border-radius: 2vh;
+}
+.content h1 {
+  font-size: 2em;
 }
 
 .text {
-  display: block;
   color: #fff;
   font-size: 2em;
   font-family: "Courier New", Courier, monospace;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
-    0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de,
+    0 0 100px #ff00de, 0 0 150px #ff00de;
   font-weight: bold;
 }
