@@ -48,6 +48,10 @@
     </section>
   </body>
   <script>
+    const content = document.querySelector(".content");
+
+    content.addEventListener("click", bounce); // För musanvändare
+    content.addEventListener("touchstart", bounce);
     function bounce() {
       const content = document.querySelector(".content"); // Hämta innehållet som ska studsa
       content.classList.add("bounce");
