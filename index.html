@@ -47,16 +47,23 @@
   <script>
     const content = document.querySelector(".content");
 
-    content.addEventListener("click", bounce); // För musanvändare
-    content.addEventListener("touchend", bounce);
+    // Lägg till eventlyssnare för både 'click' och 'touchend' för att stödja mobila enheter
+    content.addEventListener("click", bounce); // För stationära enheter
+    content.addEventListener("touchstart", handleTouch, { passive: true }); // För pekskärmsanvändare
+
+    function handleTouch(event) {
+      // Förhindra att standardbeteendet sker (t.ex. zooming eller scrolling)
+      event.preventDefault();
+      bounce();
+    }
 
     function bounce() {
-      const content = document.querySelector(".content"); // Hämta innehållet som ska studsa
       content.classList.add("bounce");
 
+      // Ta bort 'bounce' klassen efter 6 sekunder
       setTimeout(() => {
         content.classList.remove("bounce");
-      }, 6000); // 60 000 ms = 1 minut
+      }, 6000); // 6000 ms = 6 sekunder
     }
   </script>
 </html>
