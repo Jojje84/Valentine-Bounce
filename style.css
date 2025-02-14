@@ -125,7 +125,9 @@ body {
 .content h1 {
   font-size: 2em;
 }
-
+.content.bounce {
+  animation: bounce 0.5s infinite alternate;
+}
 .text {
   color: #fff;
   font-size: 2em;
@@ -133,4 +135,22 @@ body {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de,
     0 0 100px #ff00de, 0 0 150px #ff00de;
   font-weight: bold;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  25% {
+    transform: translateX(-15px) scale(1.1);
+  }
+  50% {
+    transform: translateY(10px) scale(0.9);
+  }
+  75% {
+    transform: translateX(-10px) scale(1.05);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
 }
