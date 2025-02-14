@@ -1,0 +1,12 @@
+{
+  "folders": [
+	{
+		"name": "Page2",
+		"path": "."
+	},
+	{
+		"path": "../Fullstack"
+	}
+],
+  "settings": {}
+}
