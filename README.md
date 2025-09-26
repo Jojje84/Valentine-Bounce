@@ -40,7 +40,7 @@ git clone https://github.com/Jojje84/Valentine-Bounce.git
 cd Valentine-Bounce
 ```
 
-1. Öppna index.html i valfri webbläsare
+2. Öppna index.html i valfri webbläsare
 - Dubbelklicka på filen eller
 - Kör via en lokal utvecklingsserver (t.ex. Live Server i VS Code).
 
