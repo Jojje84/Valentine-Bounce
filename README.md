@@ -1,85 +1,89 @@
 <h1 align='center'>Valentine Bounce 💖</h1>
 
-<p align="center">En enkel experimentsida byggd med HTML, CSS och JavaScript, där fokus ligger på animationer, interaktion och en inbäddad Twitch-stream.</p>
+<p align="center">A simple experimental page built with HTML, CSS, and JavaScript, focusing on animations and interactivity.</p>
 
 ---
 
-## Funktioner
+## Features
 
-- ✨ Animerad bakgrund – skapad med HTML <span> och CSS-animationer
-- 👆 Interaktiv text – klicka eller tryck på innehållet för en bounce-effekt
-- 📱 Responsiv design – fungerar på både desktop och mobil
-
----
-
-## Teknologier
-
-- HTML5 – struktur och innehåll
-- CSS3 – styling och animationer
-- JavaScript – interaktioner och event-hantering
-- GitHub Pages – enkel publicering online
+- ✨ Animated background – created with HTML `<span>` and CSS animations  
+- 👆 Interactive text – click or tap the content for a bounce effect  
+- 📱 Responsive design – works on both desktop and mobile  
 
 ---
 
-## Projektstruktur
+## Technologies
+
+- **HTML5** – structure and content  
+- **CSS3** – styling and animations  
+- **JavaScript (ES6+)** – interactivity and event handling  
+- **GitHub Pages** – simple online publishing  
+
+---
+
+## Project Structure
 
 ```
 Valentine-Bounce/
-├── index.html    # Huvudsidan
-├── style.css     # Styling och animationer
-└── README.md     # Dokumentation
+├── index.html    # Main page
+├── style.css     # Styling and animations
+└── README.md     # Documentation
 ```
 
 ---
 
-Installation
+## Installation
 
-1. Klona repot:
+1. Clone the repository:
 ```
 git clone https://github.com/Jojje84/Valentine-Bounce.git
 cd Valentine-Bounce
 ```
 
-2. Öppna index.html i valfri webbläsare
-- Dubbelklicka på filen eller
-- Kör via en lokal utvecklingsserver (t.ex. Live Server i VS Code).
+2. Open index.html in your browser:
+- Double-click the file, or
+- Run it via a local development server (e.g., Live Server in VS Code).
 
 ---
 
-## Publicering via GitHub Pages
+## Deployment with GitHub Pages
 
-Gå till repo-inställningar: Settings → Pages
+1. Go to repository settings: Settings → Pages
 
-Under Build and deployment välj:
-- Branch: main
-- Folder: /root
+2. Under Build and deployment, select:
+   - Branch: main
+   - Folder: /root
 
-Klicka Save
+3. Click Save
 
-Sidan publiceras här:
+4. Your site will be available at:
 ```
 https://jojje84.github.io/Valentine-Bounce/
 ```
 
 ---
 
-## Användning
+## Usage
 
-- Klicka på innehållet → texten hoppar (bounce)
-- Upplev bakgrundsanimationerna
+- Click the content → the text will bounce
+- Enjoy the animated background
 
 ---
 
-## Skärmbilder
+## Screenshots
 
 - Homepage
 ![homepage-sida](screenshots/homepage.png)
 
 ---
 
-## Kontakt
+## Contact
 
 👤 Jorge
 
-- GitHub: [Jojje84](https://github.com/Jojje84)
-- E-post: [jorgeavilas@icloud.com](mailto:jorgeavilas@icloud.com)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?logo=github&logoColor=white)](https://github.com/Jojje84) 
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-Contact-blue?logo=icloud&logoColor=white)](mailto:jorgeavilas@icloud.com) 
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-avila-35622030/)
