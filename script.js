@@ -1,24 +1,24 @@
-// Valentine Bounce - Interactive Animation Script
-// Handles click and touch events for bounce animation
+// Valentine Bounce - Interaktivt Animationsskript
+// Hanterar klick- och pekskärmshändelser för studsanimation
 
 document.addEventListener('DOMContentLoaded', function() {
     const content = document.querySelector(".content");
 
-    // Add event listeners for click and touch interactions
+    // Lägg till händelselyssnare för klick- och pekinteraktioner
     content.addEventListener("click", bounce);
     content.addEventListener("touchstart", handleTouch, { passive: true });
 
-    // Handle touch events for mobile devices
+    // Hantera pekskärmshändelser för mobila enheter
     function handleTouch(event) {
         event.preventDefault();
         bounce();
     }
 
-    // Main bounce animation function
+    // Huvudfunktion för studsanimation
     function bounce() {
         content.classList.add("bounce");
 
-        // Remove bounce class after animation completes
+        // Ta bort bounce-klassen när animationen är klar
         setTimeout(() => {
             content.classList.remove("bounce");
         }, 6000);
