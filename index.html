@@ -43,25 +43,7 @@
         <span class="text">Valentine</span>
       </div>
     </section>
-  
-  <script>
-    const content = document.querySelector(".content");
-
-    content.addEventListener("click", bounce);
-    content.addEventListener("touchstart", handleTouch, { passive: true });
-    function handleTouch(event) {
-      event.preventDefault();
-      bounce();
-    }
-
-    function bounce() {
-      content.classList.add("bounce");
-
-      setTimeout(() => {
-        content.classList.remove("bounce");
-      }, 6000);
-    }
-  </script>
-
+    
+    <script src="script.js"></script>
 </body>
 </html>
