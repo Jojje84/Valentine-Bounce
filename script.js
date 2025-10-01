@@ -1,3 +1,14 @@
+/*
+ * Valentine Bounce - Interactive Animation Script
+ * Copyright (c) 2025 Jorge Avila
+ * Author: Jorge Avila (jorgeavilas@icloud.com)
+ * Repository: https://github.com/Jojje84/Valentine-Bounce
+ * License: MIT License - see LICENSE file for details
+ * 
+ * This file contains custom interactive animations and effects.
+ * Original work by Jorge Avila - please maintain attribution.
+ */
+
 // Valentine Bounce - Avancerat Interaktivt Animationsskript
 // Hanterar tema, ljud, partiklar, klickräknare och alla interaktioner
 

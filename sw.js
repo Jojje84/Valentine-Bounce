@@ -1,3 +1,14 @@
+/*
+ * Valentine Bounce - Service Worker for PWA
+ * Copyright (c) 2025 Jorge Avila
+ * Author: Jorge Avila (jorgeavilas@icloud.com)
+ * Repository: https://github.com/Jojje84/Valentine-Bounce
+ * License: MIT License - see LICENSE file for details
+ * 
+ * Progressive Web App service worker for offline functionality.
+ * Original work by Jorge Avila - please maintain attribution.
+ */
+
 // Service Worker för Valentine Bounce PWA
 const CACHE_NAME = 'valentine-bounce-v1';
 const urlsToCache = [
