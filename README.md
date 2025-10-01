@@ -77,6 +77,12 @@ https://jojje84.github.io/Valentine-Bounce/
 
 ---
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
 ## Contact
 
 👤 Jorge
